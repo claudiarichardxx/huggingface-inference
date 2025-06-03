@@ -2,7 +2,9 @@
 
 A FastAPI-based inference service that predicts **MBTI personality types** from text input using a fine-tuned BERT model.
 
-![MBTI Diagram](media/mbti.jpg)
+<p align="center">
+  <img src="media/mbti.jpg" alt="MBTI Diagram" width="400"/>
+</p>
 
 ---
 
