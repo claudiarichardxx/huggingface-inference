@@ -89,7 +89,7 @@ POST /predict
 
 ## 📓 Demo Notebook
 
-A notebook `mbti_demo.ipynb` is included to demonstrate:
+A notebook `demo.ipynb` is included to demonstrate:
 
 - Sending multiple concurrent inference requests
 - Benchmarking response times
