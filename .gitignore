@@ -8,3 +8,4 @@ venv/
 *.pyc
 *.ipynb
 *.log
+app.log
