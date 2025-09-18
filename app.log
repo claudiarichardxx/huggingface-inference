@@ -265,3 +265,57 @@
 2025-09-18 13:10:29,178 - MBTIApp - INFO - Computing loss with model.num_labels
 2025-09-18 13:10:29,186 - MBTIApp - INFO - Training completed and model evaluated.
 2025-09-18 13:10:34,239 - MBTIApp - INFO - Model pushed to Hugging Face Hub with name: test
+2025-09-18 15:02:59,885 - MBTIApp - INFO - Received inference request.
+2025-09-18 15:02:59,885 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 15:02:59,885 - MBTIApp - INFO - Local model not found. Loading from specified model name/path.
+2025-09-18 15:03:04,820 - MBTIApp - INFO - Predictions computed.
+2025-09-18 15:03:04,824 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 15:03:04,824 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 15:03:04,827 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 15:03:04,829 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 15:03:04,831 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 15:03:04,831 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 15:03:28,059 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 15:09:36,285 - MBTIApp - INFO - Received inference request.
+2025-09-18 15:09:36,285 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 15:09:36,839 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 15:09:37,403 - MBTIApp - INFO - Predictions computed.
+2025-09-18 15:09:37,406 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 15:09:37,406 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 15:09:37,408 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 15:09:37,411 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 15:09:37,411 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 15:09:37,411 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 15:10:44,923 - MBTIApp - INFO - Received inference request.
+2025-09-18 15:10:44,923 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 15:10:45,145 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 15:10:45,307 - MBTIApp - INFO - Predictions computed.
+2025-09-18 15:10:45,307 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 15:10:45,307 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 15:10:45,309 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 15:10:45,309 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 15:10:45,309 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 15:10:45,309 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 15:11:03,911 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 15:37:23,417 - MBTIApp - INFO - Received inference request.
+2025-09-18 15:37:23,419 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 15:37:23,932 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 15:37:24,499 - MBTIApp - INFO - Predictions computed.
+2025-09-18 15:37:24,502 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 15:37:24,502 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 15:37:24,504 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 15:37:24,506 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 15:37:24,508 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 15:37:24,508 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 15:37:42,763 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 15:37:55,889 - MBTIApp - INFO - Received inference request.
+2025-09-18 15:37:55,889 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 15:37:56,238 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 15:37:57,043 - MBTIApp - INFO - Predictions computed.
+2025-09-18 15:37:57,045 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 15:37:57,045 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 15:37:57,050 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 15:37:57,050 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 15:37:57,052 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 15:37:57,052 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 15:38:56,712 - MBTIApp - INFO - Attributions computed and labels refined.

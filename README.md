@@ -72,7 +72,7 @@ The API will be available at: [http://localhost:8000/docs](http://localhost:8000
 ### Endpoint 1
 
 ```http
-POST /predict
+GET /predict
 ```
 
 ### Request Body
