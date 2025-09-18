@@ -1,0 +1,9 @@
+models/
+setup/
+ft/
+.env
+__pycache__/
+.venv/
+venv/
+*.pyc
+*.ipynb

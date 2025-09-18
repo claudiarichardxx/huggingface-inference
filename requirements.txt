@@ -1,5 +1,16 @@
 fastapi
 uvicorn
-transformers
+transformers>=4.0.0
 torch
 pydantic
+captum
+accelerate
+iterative-stratification
+pandas
+scikit-learn
+datasets
+colour
+ipython
+pydantic-settings
+tkhtmlview
+huggingface_hub

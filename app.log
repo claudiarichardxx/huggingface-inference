@@ -1,0 +1,267 @@
+2025-09-18 12:37:54,413 - MBTIApp - INFO - Received inference request.
+2025-09-18 12:37:54,413 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 12:37:54,922 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 12:37:55,509 - MBTIApp - INFO - Predictions computed.
+2025-09-18 12:37:55,512 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 12:37:55,512 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 12:37:55,521 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 12:37:55,521 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 12:37:55,521 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 12:37:55,522 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 12:37:55,522 - MBTIApp - INFO - Computing attributions for target class: 0
+2025-09-18 12:38:01,903 - MBTIApp - INFO - Computing attributions for target class: 1
+2025-09-18 12:38:08,092 - MBTIApp - INFO - Computing attributions for target class: 2
+2025-09-18 12:38:13,470 - MBTIApp - INFO - Computing attributions for target class: 3
+2025-09-18 12:38:18,242 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 12:54:39,609 - MBTIApp - INFO - Received inference request.
+2025-09-18 12:54:39,609 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 12:54:39,609 - MBTIApp - INFO - Local model not found. Loading from specified model name/path.
+2025-09-18 12:54:44,636 - MBTIApp - INFO - Predictions computed.
+2025-09-18 12:54:44,638 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 12:54:44,638 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 12:54:44,642 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 12:54:44,642 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 12:54:44,642 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 12:54:44,642 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 12:55:05,539 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 12:55:36,218 - MBTIApp - INFO - Received inference request.
+2025-09-18 12:55:36,218 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 12:55:36,220 - MBTIApp - INFO - Local model not found. Loading from specified model name/path.
+2025-09-18 12:55:39,723 - MBTIApp - INFO - Predictions computed.
+2025-09-18 12:55:39,726 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 12:55:39,726 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 12:55:39,727 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 12:55:39,728 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 12:55:39,728 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 12:55:39,728 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 12:55:59,907 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 12:58:51,875 - MBTIApp - INFO - Received inference request.
+2025-09-18 12:58:51,877 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 12:58:51,877 - MBTIApp - INFO - Local model not found. Loading from specified model name/path.
+2025-09-18 12:58:55,936 - MBTIApp - INFO - Predictions computed.
+2025-09-18 12:58:55,940 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 12:58:55,940 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 12:58:55,945 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 12:58:55,945 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 12:58:55,945 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 12:58:55,945 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 12:59:02,902 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 12:59:08,681 - MBTIApp - INFO - Received inference request.
+2025-09-18 12:59:08,681 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 12:59:08,991 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 12:59:09,152 - MBTIApp - INFO - Predictions computed.
+2025-09-18 12:59:09,154 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 12:59:09,154 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 12:59:09,154 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 12:59:09,154 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 12:59:09,154 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 12:59:09,156 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 12:59:22,901 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 13:00:31,070 - MBTIApp - INFO - Received training request.
+2025-09-18 13:05:45,659 - MBTIApp - INFO - Received training request.
+2025-09-18 13:05:57,538 - MBTIApp - INFO - Dataset, model, and tokenizer loaded.
+2025-09-18 13:05:57,538 - MBTIApp - INFO - Starting training with base model: prajjwal1/bert-tiny, dataset: ClaudiaRichard/mbti_classification_v2, new model name: test
+2025-09-18 13:07:06,047 - MBTIApp - INFO - Received training request.
+2025-09-18 13:07:17,581 - MBTIApp - INFO - Dataset, model, and tokenizer loaded.
+2025-09-18 13:07:17,581 - MBTIApp - INFO - Starting training with base model: prajjwal1/bert-tiny, dataset: ClaudiaRichard/mbti_classification_v2, new model name: test
+2025-09-18 13:07:18,116 - MBTIApp - INFO - Data preprocessed and tokenized.
+2025-09-18 13:07:18,597 - MBTIApp - INFO - Data preprocessed and tokenized.
+2025-09-18 13:07:19,065 - MBTIApp - INFO - Data preprocessed and tokenized.
+2025-09-18 13:07:19,187 - MBTIApp - INFO - Starting training.
+2025-09-18 13:07:19,697 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:19,877 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:20,380 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:20,448 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:20,853 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:20,941 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,130 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,146 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,323 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,383 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,556 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,571 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,746 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,809 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,981 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:21,998 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,175 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,238 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,416 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,435 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,612 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,670 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,842 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:22,864 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,036 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,100 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,276 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,292 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,465 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,531 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,693 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:23,709 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,213 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,271 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,443 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,458 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,636 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,698 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,873 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:24,892 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,078 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,168 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,339 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,354 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,530 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,595 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,776 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,793 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:25,981 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,042 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,217 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,230 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,409 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,469 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,641 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,655 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,832 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:26,890 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,069 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,083 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,274 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,362 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,539 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,555 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,729 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,790 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,971 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:27,990 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,164 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,226 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,402 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,416 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,596 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,670 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,841 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:28,856 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,047 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,115 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,287 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,303 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,631 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,646 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:07:29,655 - MBTIApp - INFO - Training completed and model evaluated.
+2025-09-18 13:07:35,135 - MBTIApp - INFO - Model pushed to Hugging Face Hub with name: test
+2025-09-18 13:08:29,470 - MBTIApp - INFO - Received inference request.
+2025-09-18 13:08:29,470 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 13:08:29,751 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 13:08:30,233 - MBTIApp - INFO - Predictions computed.
+2025-09-18 13:08:30,235 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 13:08:30,237 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 13:08:30,241 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 13:08:30,241 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 13:08:30,241 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 13:08:30,241 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 13:08:47,228 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 13:09:46,140 - MBTIApp - INFO - Received training request.
+2025-09-18 13:09:51,890 - MBTIApp - INFO - Received inference request.
+2025-09-18 13:09:51,890 - MBTIApp - INFO - Using model: ClaudiaRichard/mbti-bert-nli-finetuned
+2025-09-18 13:09:52,135 - MBTIApp - INFO - Model and tokenizer loaded from local directory.
+2025-09-18 13:09:52,493 - MBTIApp - INFO - Predictions computed.
+2025-09-18 13:09:52,493 - MBTIApp - INFO - Predicted MBTI types mapped.
+2025-09-18 13:09:52,493 - MBTIApp - INFO - Predicted MBTI for input text, trying to compute attributions and refine labels.
+2025-09-18 13:09:52,495 - MBTIApp - INFO - Computing attributions for interpretability.
+2025-09-18 13:09:52,495 - MBTIApp - INFO - Attributions class initialized with model and Layer Integrated Gradients.
+2025-09-18 13:09:52,495 - MBTIApp - INFO - Refining labels based on attribution thresholds.
+2025-09-18 13:09:52,495 - MBTIApp - INFO - Storing token-level attributions.
+2025-09-18 13:09:56,513 - MBTIApp - INFO - Dataset, model, and tokenizer loaded.
+2025-09-18 13:09:56,515 - MBTIApp - INFO - Starting training with base model: prajjwal1/bert-tiny, dataset: ClaudiaRichard/mbti_classification_v2, new model name: test
+2025-09-18 13:09:57,179 - MBTIApp - INFO - Data preprocessed and tokenized.
+2025-09-18 13:09:57,809 - MBTIApp - INFO - Data preprocessed and tokenized.
+2025-09-18 13:09:58,329 - MBTIApp - INFO - Data preprocessed and tokenized.
+2025-09-18 13:09:58,427 - MBTIApp - INFO - Starting training.
+2025-09-18 13:09:58,996 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:09:59,311 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:00,225 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:00,424 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:01,390 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:02,176 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:03,227 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:03,459 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:04,308 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:04,581 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:05,113 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:05,182 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:05,677 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:06,112 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:07,201 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:07,456 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:08,445 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:09,305 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:10,396 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:10,619 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:11,120 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:11,413 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:11,931 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:11,996 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:12,793 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:13,694 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:14,771 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:14,950 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:16,268 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:17,092 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:17,688 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:17,769 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:18,128 - MBTIApp - INFO - Attributions computed and labels refined.
+2025-09-18 13:10:18,262 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:18,464 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:18,994 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:19,082 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:19,537 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:19,698 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:20,144 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:20,194 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:20,725 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:20,985 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:21,703 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:21,781 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:22,785 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:23,022 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:23,598 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:23,669 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:24,529 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:24,728 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:25,302 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:25,360 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:25,646 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:25,718 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:25,911 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:25,932 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,130 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,192 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,508 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,524 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,727 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,794 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,963 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:26,981 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:27,182 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:27,249 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:27,546 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:27,564 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:27,777 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:27,850 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,025 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,052 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,250 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,316 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,486 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,504 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,700 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,766 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,950 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:28,968 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:29,162 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:29,178 - MBTIApp - INFO - Computing loss with model.num_labels
+2025-09-18 13:10:29,186 - MBTIApp - INFO - Training completed and model evaluated.
+2025-09-18 13:10:34,239 - MBTIApp - INFO - Model pushed to Hugging Face Hub with name: test
