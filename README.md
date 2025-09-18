@@ -32,6 +32,16 @@ Unlike traditional sentiment analysis, this project aims to **analyze personalit
 
 ---
 
+## Architecture
+
+<p align="center">
+  <img src="media/mbti_architecture.jpg" alt="MBTI Architecture Diagram" width="400"/>
+</p>
+
+
+
+---
+
 ## 🚀 Quickstart with Docker
 
 ### 1. Clone the Repo
@@ -59,7 +69,7 @@ The API will be available at: [http://localhost:8000/docs](http://localhost:8000
 
 ## 🧪 API Usage
 
-### Endpoint
+### Endpoint 1
 
 ```http
 POST /predict
@@ -166,6 +176,46 @@ POST /predict
 
 > The response includes both full trait labels and the 4-letter MBTI code.
 
+
+### Endpoint 2
+
+```http
+POST /train
+```
+
+### Request Body
+
+```json
+{
+    "base_model": "prajjwal1/bert-tiny",
+    "dataset_name": "ClaudiaRichard/mbti_classification_v2",
+    "finetuned_model_name": "test"
+}
+```
+
+### Response
+
+```json
+{
+    "history": {
+        "train_runtime": 30.349,
+        "train_samples_per_second": 10.544,
+        "train_steps_per_second": 0.659,
+        "total_flos": 63563980800.0,
+        "train_loss": 0.6761322021484375,
+        "epoch": 20.0
+    },
+    "test_results": {
+        "eval_loss": 0.6896672248840332,
+        "eval_f1": 0.0,
+        "eval_roc_auc": 0.5,
+        "eval_runtime": 0.0719,
+        "eval_samples_per_second": 139.106,
+        "eval_steps_per_second": 27.821,
+        "epoch": 20.0
+    }
+}
+```
 ---
 
 ## 📦 Requirements
