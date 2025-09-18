@@ -18,7 +18,6 @@ Unlike traditional sentiment analysis, this project aims to **analyze personalit
 - **API Framework:** FastAPI
 - **Containerization:** Docker
 - **Deployment-ready:** Scalable via `uvicorn` workers
-- **Demo:** Parallel POST requests via a Jupyter Notebook
 
 ---
 
@@ -70,7 +69,8 @@ POST /predict
 
 ```json
 {
-  "text": "I really enjoy being alone these days."
+  "text": "I'm pretty outdoorsy. I like travelling with friends and family.",
+  "model": "ClaudiaRichard/mbti_classification_v2"
 }
 ```
 
@@ -78,28 +78,93 @@ POST /predict
 
 ```json
 {
-  "labels": ["Introvert", "Intuition", "Feeling", "Perceiving"],
-  "mbti": "INFP"
+    "labels": [
+        "Introvert",
+        "Intuition",
+        "Thinking",
+        "Perceiving"
+    ],
+    "mbti": "INTP",
+    "refined_labels": [
+        "Inconclusive",
+        "Intuition",
+        "Thinking",
+        "Perceiving"
+    ],
+    "attribution_values": {
+        "Introvert_Extrovert": {
+            "[CLS]": 0.4442,
+            "i": 0.3767,
+            "'": -0.2885,
+            "m": 0.0097,
+            "pretty": 0.1235,
+            "outdoors": 0.2461,
+            "##y": 0.327,
+            ".": 0.3068,
+            "like": 1.0,
+            "travelling": 0.3235,
+            "with": -0.0628,
+            "friends": 0.1662,
+            "and": 0.2692,
+            "family": 0.0043,
+            "[SEP]": -0.2136
+        },
+        "Intuition_Sensing": {
+            "[CLS]": 0.2277,
+            "i": -0.398,
+            "'": -0.5432,
+            "m": -0.4806,
+            "pretty": -0.2263,
+            "outdoors": 0.575,
+            "##y": 0.1851,
+            ".": 0.3294,
+            "like": 0.7846,
+            "travelling": 0.1436,
+            "with": -0.5545,
+            "friends": -0.2079,
+            "and": -0.4947,
+            "family": 0.7007,
+            "[SEP]": -1.0
+        },
+        "Thinking_Feeling": {
+            "[CLS]": -0.0874,
+            "i": -1.0,
+            "'": -0.5907,
+            "m": -0.6658,
+            "pretty": -0.6422,
+            "outdoors": -0.2171,
+            "##y": -0.6462,
+            ".": -0.2067,
+            "like": -0.0752,
+            "travelling": -0.5225,
+            "with": -0.6991,
+            "friends": -0.6012,
+            "and": -0.3092,
+            "family": 0.0117,
+            "[SEP]": -0.872
+        },
+        "Judging_Perceiving": {
+            "[CLS]": 0.2954,
+            "i": 0.3441,
+            "'": -0.2936,
+            "m": 0.2628,
+            "pretty": 0.5601,
+            "outdoors": 0.7466,
+            "##y": 0.229,
+            ".": 0.4509,
+            "like": 1.0,
+            "travelling": 0.4049,
+            "with": -0.4434,
+            "friends": -0.0749,
+            "and": 0.1715,
+            "family": 0.4505,
+            "[SEP]": -0.2653
+        }
+    }
 }
 ```
 
 > The response includes both full trait labels and the 4-letter MBTI code.
-
----
-
-## 📓 Demo Notebook
-
-A notebook `demo.ipynb` is included to demonstrate:
-
-- Sending multiple concurrent inference requests
-- Benchmarking response times
-- Analyzing results across diverse text inputs
-
-```bash
-jupyter notebook
-```
-
-Make sure the API container is running on port `8000`.
 
 ---
 
@@ -113,6 +178,7 @@ uvicorn
 transformers
 torch
 pydantic
+...
 ```
 
 Installed automatically inside the Docker container.
@@ -133,11 +199,16 @@ Installed automatically inside the Docker container.
 huggingface-inference/
 │
 ├── app/
-│   └── main.py          ← FastAPI app and model logic
-├── requirements.txt     ← Python dependencies
-├── dockerfile           ← Image definition
-├── demo.ipynb      ← Notebook for testing the API
-└── README.md            ← You are here
+│   └── main.py          -> FastAPI app and model logic
+├── requirements.txt     -> Python dependencies
+├── dockerfile           -> Image definition
+├── utils
+    |── attributions.py  -> Calculate attributions
+    |── predict.py       -> Making predictions
+    |── train.py         -> Finetuning model
+├── .gitignore           -> Files for git to ignore
+├── logger.py            -> Initialize logger
+└── README.md            -> You are here
 ```
 
 ---
